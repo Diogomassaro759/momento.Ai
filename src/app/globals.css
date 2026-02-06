@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  padding: 10px;
+  border: none;
+}
