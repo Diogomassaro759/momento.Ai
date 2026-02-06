@@ -1,10 +1,9 @@
 'use client'
 
-import Link from 'next/link'
-import Image from 'next/image'
-import { supabase } from '@/lib/supabase'
+import Link from "next/link"
+import Image from "next/image"
+import { supabase } from "@/lib/supabase"
 import { useEffect, useState } from 'react'
-
 export default function Navigation() {
   const [user, setUser] = useState<any>(null)
 
