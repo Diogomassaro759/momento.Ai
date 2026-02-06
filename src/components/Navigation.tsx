@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import Logo from './Logo'
+import Logo from './logo'
 import { supabase } from '@/lib/supabase'
 
 export default function Navigation() {
